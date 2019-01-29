@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+> RAILS_ENV=test bundle exec rake wdt:db:create
+> RAILS_ENV=test bundle exec rake wdt:db:migrate
+> RAILS_ENV=test bundle exec rake wdt:db:seed
+
+> RAILS_ENV=test bundle exec rake michelada:db:create
+> RAILS_ENV=test bundle exec rake michelada:db:migrate
+> RAILS_ENV=test bundle exec rake michelada:db:seed
