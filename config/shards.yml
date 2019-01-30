@@ -1,0 +1,16 @@
+octopus:
+  environments:
+    - development
+    - production
+  development:
+    local:
+      host: localhost
+      adapter: postgresql
+      database: demo_development
+      encoding: unicode
+  production:
+    local:
+      host: localhost
+      adapter: postgresql
+      database: demo_development
+      encoding: unicode
