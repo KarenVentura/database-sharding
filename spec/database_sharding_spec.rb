@@ -13,7 +13,7 @@ RSpec.describe 'DatabaseSharding'do
       context 'when is a valid company' do
         it 'should return michelada company applicants' do
           expect(Applicant.using(:michelada).count).to eq(4)
-          expect(Applicant.using(:michelada).all.map(&:name)).to eq(["karenx", "karenx1", "karenx2", "karenx3"])
+          expect(Applicant.using(:michelada).all.map(&:name)).to eq(["karenx", "karenx2", "karenx3", "karenx1"])
         end
       end
     end
